@@ -335,10 +335,14 @@ __c3be:     .hex f3 6c f7 47   ; $c3be: f3 6c f7 47   Data
             .hex 24 24         ; $c3f2: 24 24         Data
 __c3f4:     .hex 23 db 42 50   ; $c3f4: 23 db 42 50   Data
             .hex 21 ca 4c 24   ; $c3f8: 21 ca 4c 24   Data
-            .hex 21 ea 0c 24   ; $c3fc: 21 ea 0c 24   Data
-            .hex 24 19 15 0a   ; $c400: 24 19 15 0a   Data
-            .hex 22 0e 1b 24   ; $c404: 22 0e 1b 24   Data
-            .hex c0 24 24 00   ; $c408: c0 24 24 00   Data
+
+            ; PLAYER I
+            .hex 21 ea
+            .hex 0c
+            .hex 24 15 1e 0d 0a 17 1d 18 24 c0 24 24
+
+            .hex 00
+
 __c40c:     .hex 23 e2 04 04   ; $c40c: 23 e2 04 04   Data
             .hex 05 05 01 22   ; $c410: 05 05 01 22   Data
             .hex 0a 4c 24 22   ; $c414: 0a 4c 24 22   Data
@@ -1062,6 +1066,7 @@ __ca48:     lda __c3f4,y       ; $ca48: b9 f4 c3
 ;-------------------------------------------------------------------------------
 __ca54:     lda $49            ; $ca54: a5 49     
             beq __ca5d         ; $ca56: f0 05     
+            ; overwrites I with II for "PLAYER II"
             lda #$c1           ; $ca58: a9 c1     
             sta $0345          ; $ca5a: 8d 45 03  
 __ca5d:     rts                ; $ca5d: 60        
