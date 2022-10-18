@@ -345,11 +345,14 @@ __c3f4:     .hex 23 db 42 50   ; $c3f4: 23 db 42 50   Data
 
 __c40c:     .hex 23 e2 04 04   ; $c40c: 23 e2 04 04   Data
             .hex 05 05 01 22   ; $c410: 05 05 01 22   Data
-            .hex 0a 4c 24 22   ; $c414: 0a 4c 24 22   Data
-            .hex 2a 0c 24 10   ; $c418: 2a 0c 24 10   Data
-            .hex 0a 16 0e 24   ; $c41c: 0a 16 0e 24   Data
-            .hex 24 18 8c 0e   ; $c420: 24 18 8c 0e   Data
-            .hex 1b 24 22 4a   ; $c424: 1b 24 22 4a   Data
+            .hex 0a 4c 24      ; $c414: 0a 4c 24      Data
+
+            ; GAME OVER
+            .hex 22 2a
+            .hex 0c
+            .hex 24 24 15 1e 0d 0f 12 17 18 24 24 24
+
+            .hex 22 4a         ; $c426: 22 4a         Data
             .hex 4c 24 00 12   ; $c428: 4c 24 00 12   Data
             .hex 24 24 22 69   ; $c42c: 24 24 22 69   Data
             .hex 6a 69 6a 21   ; $c430: 6a 69 6a 21   Data
