@@ -7540,10 +7540,13 @@ __f265:     rts                ; $f265: 60
             .hex 20 63 01 fd   ; $f8b6: 20 63 01 fd   Data
             .hex 20 6b 03 8d   ; $f8ba: 20 6b 03 8d   Data
             .hex 8e 8f 20 75   ; $f8be: 8e 8f 20 75   Data
-            .hex 02 fc fd 20   ; $f8c2: 02 fc fd 20   Data
-            .hex 94 0a 25 13   ; $f8c6: 94 0a 25 13   Data
-            .hex 2a 26 27 28   ; $f8ca: 2a 26 27 28   Data
-            .hex 29 2a 15 2d   ; $f8ce: 29 2a 15 2d   Data
+            .hex 02 fc fd      ; $f8c2: 02 fc fd      Data
+
+            ; [J][BONUS][L]
+            .hex 20 94
+            .hex 0a
+            .hex 25 1f 2a 26 27 28 29 2a 0e 2d
+
             .hex 20 b4 0a 2b   ; $f8d2: 20 b4 0a 2b   Data
             .hex 24 2c 24 24   ; $f8d6: 24 2c 24 24   Data
             .hex 24 24 2c 24   ; $f8da: 24 24 2c 24   Data
