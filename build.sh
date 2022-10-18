@@ -14,6 +14,7 @@ cp DonkeyKongJr.nes "../$ROM"
 cd ..
 
 echo "Updating CHR..."
+dd if=chr/bonus.bin of="$ROM" conv=notrunc bs=1 seek=$((0x5270))
 dd if=chr/hiscore.bin of="$ROM" conv=notrunc bs=1 seek=$((0x58E0))
 
 echo "Generating patch..."
