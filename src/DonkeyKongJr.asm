@@ -339,7 +339,7 @@ __c3f4:     .hex 23 db 42 50   ; $c3f4: 23 db 42 50   Data
             ; PLAYER I
             .hex 21 ea
             .hex 0c
-            .hex 24 15 1e 0d 0a 17 1d 18 24 c0 24 24
+            .hex 24 24 15 1e 0d 0a 17 1d 18 c0 24 24
 
             .hex 00
 

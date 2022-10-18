@@ -16,6 +16,7 @@ cd ..
 echo "Updating CHR..."
 dd if=chr/bonus.bin of="$ROM" conv=notrunc bs=1 seek=$((0x5270))
 dd if=chr/hiscore.bin of="$ROM" conv=notrunc bs=1 seek=$((0x58E0))
+dd if=chr/romannumerals.bin of="$ROM" conv=notrunc bs=1 seek=$((0x5C10))
 
 echo "Generating patch..."
 $FLIPS -c -i "$ORIG" "$ROM" "$IPS"
