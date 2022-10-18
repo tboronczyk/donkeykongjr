@@ -7167,35 +7167,46 @@ __f265:     rts                ; $f265: 60
             .hex c6 f6 20 b9   ; $f30e: c6 f6 20 b9   Data
             .hex 85 ee ee ef   ; $f312: 85 ee ee ef   Data
             .hex f9 fa 21 3a   ; $f316: f9 fa 21 3a   Data
-            .hex 01 f8 21 c9   ; $f31a: 01 f8 21 c9   Data
-            .hex 0f 01 24 19   ; $f31e: 0f 01 24 19   Data
-            .hex 15 0a 22 0e   ; $f322: 15 0a 22 0e   Data
-            .hex 1b 24 10 0a   ; $f326: 1b 24 10 0a   Data
-            .hex 16 0e 24 0a   ; $f32a: 16 0e 24 0a   Data
-            .hex 22 09 0f 01   ; $f32e: 22 09 0f 01   Data
-            .hex 24 19 15 0a   ; $f332: 24 19 15 0a   Data
-            .hex 22 0e 1b 24   ; $f336: 22 0e 1b 24   Data
-            .hex 10 0a 16 0e   ; $f33a: 10 0a 16 0e   Data
-            .hex 24 0b 22 49   ; $f33e: 24 0b 22 49   Data
-            .hex 0f 02 24 19   ; $f342: 0f 02 24 19   Data
-            .hex 15 0a 22 0e   ; $f346: 15 0a 22 0e   Data
-            .hex 1b 24 10 0a   ; $f34a: 1b 24 10 0a   Data
-            .hex 16 0e 24 0a   ; $f34e: 16 0e 24 0a   Data
-            .hex 22 89 0f 02   ; $f352: 22 89 0f 02   Data
-            .hex 24 19 15 0a   ; $f356: 24 19 15 0a   Data
-            .hex 22 0e 1b 24   ; $f35a: 22 0e 1b 24   Data
-            .hex 10 0a 16 0e   ; $f35e: 10 0a 16 0e   Data
-            .hex 24 0b 23 05   ; $f362: 24 0b 23 05   Data
-            .hex 16 fe 01 09   ; $f366: 16 fe 01 09   Data
-            .hex 08 02 24 17   ; $f36a: 08 02 24 17   Data
-            .hex 12 17 1d 0e   ; $f36e: 12 17 1d 0e   Data
-            .hex 17 0d 18 24   ; $f372: 17 0d 18 24   Data
-            .hex 0c 18 ca 15   ; $f376: 0c 18 ca 15   Data
-            .hex 1d 0d c7 23   ; $f37a: 1d 0d c7 23   Data
-            .hex 4b 0d 16 0a   ; $f37e: 4b 0d 16 0a   Data
-            .hex 0d 0e 24 12   ; $f382: 0d 0e 24 12   Data
-            .hex 17 24 13 0a   ; $f386: 17 24 13 0a   Data
-            .hex 19 0a 17 00   ; $f38a: 19 0a 17 00   Data
+            .hex 01 f8         ; $f31a: 01 f8         Data
+
+            ; 1 PLAYER GAME A
+            .hex 21 c9
+            .hex 0e
+            .hex 01 24 15 1e 0d 0a 17 1d 18
+            .hex 24 0a 24 24 24
+
+            ; 1 PLAYER GAME B
+            .hex 22 09
+            .hex 0e
+            .hex 01 24 15 1e 0d 0a 17 1d 18
+            .hex 24 0b 24 24 24
+
+            ; 2 PLAYER GAME A
+            .hex 22 49
+            .hex 0e
+            .hex 02 24 15 1e 0d 0a 17 1d 18 13
+            .hex 24 0a 24 24
+
+            ; 2 PLAYER GAME B
+            .hex 22 89
+            .hex 0e
+            .hex 02 24 15 1e 0d 0a 17 1d 18 13
+            .hex 24 0b 24 24
+
+            ; (c)1982 NINTENDO CO., LTD.
+            .hex 23 05
+            .hex 16
+            .hex fe 01 09 08 02 24
+            .hex 17 12 17 1d 0e 17 0d 18 24 0c 18 c7 15 1d 0d c7
+
+            ; MADE IN JAPAN
+            .hex 23 47
+            .hex 11
+            .hex 0f 0a 1b 12 1d 0a 24 0e 17 24
+            .hex 13 0a 19 0a 17 12 18
+
+            .hex 00
+
             .hex 3f 00 20 0f   ; $f38e: 3f 00 20 0f   Data
             .hex 2a 17 37 0f   ; $f392: 2a 17 37 0f   Data
             .hex 30 2a 16 0f   ; $f396: 30 2a 16 0f   Data
