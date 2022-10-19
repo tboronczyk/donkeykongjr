@@ -15,3 +15,15 @@ considered piracy.
 
   * Donkey Kong Jr. (World) (Rev A) - CRC32 `2A794CCB`
 
+## Screenshots
+
+Here are some pretty screenshots:
+
+![Title screen](images/image-1.png)
+
+![Level 2](images/image-2.png)
+
+![Level 4](images/image-3.png)
+
+![Game over](images/image-4.png)
+
