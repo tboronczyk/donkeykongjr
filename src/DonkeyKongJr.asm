@@ -333,27 +333,43 @@ __c3be:     .hex f3 6c f7 47   ; $c3be: f3 6c f7 47   Data
             .hex a5 00 c0 b4   ; $c3ea: a5 00 c0 b4   Data
             .hex bc b8 c0 12   ; $c3ee: bc b8 c0 12   Data
             .hex 24 24         ; $c3f2: 24 24         Data
-__c3f4:     .hex 23 db 42 50   ; $c3f4: 23 db 42 50   Data
-            .hex 21 ca 4c 24   ; $c3f8: 21 ca 4c 24   Data
+__c3f4:
+            ; attributes
+            .hex 23 db
+            .hex 43
+            .hex 50
+
+            ; blank line
+            .hex 21 ca
+            .hex 4e
+            .hex 24
 
             ; PLAYER I
             .hex 21 ea
-            .hex 0c
-            .hex 24 24 15 1e 0d 0a 17 1d 18 c0 24 24
+            .hex 0e
+            .hex 24 24 15 1e 0d 0a 17 1d 18 24 c0 24 24 24
 
             .hex 00
 
-__c40c:     .hex 23 e2 04 04   ; $c40c: 23 e2 04 04   Data
-            .hex 05 05 01 22   ; $c410: 05 05 01 22   Data
-            .hex 0a 4c 24      ; $c414: 0a 4c 24      Data
+__c40c:
+            ; attributes
+            .hex 23 e2
+            .hex 04
+            .hex 04 05 05 01
+
+            ; blank line
+            .hex 22 0a
+            .hex 4e
+            .hex 24
 
             ; GAME OVER
             .hex 22 2a
-            .hex 0c
-            .hex 24 24 15 1e 0d 0f 12 17 18 24 24 24
+            .hex 0e
+            .hex 24 24 24 15 1e 0d 0f 12 17 18 24 24 24 24
 
-            .hex 22 4a         ; $c426: 22 4a         Data
-            .hex 4c 24 00 12   ; $c428: 4c 24 00 12   Data
+            .hex 00
+
+            .hex 12            ; $c42b: 12            Data
             .hex 24 24 22 69   ; $c42c: 24 24 22 69   Data
             .hex 6a 69 6a 21   ; $c430: 6a 69 6a 21   Data
             .hex 42 d1 67 21   ; $c434: 42 d1 67 21   Data
@@ -1071,7 +1087,7 @@ __ca54:     lda $49            ; $ca54: a5 49
             beq __ca5d         ; $ca56: f0 05     
             ; overwrites I with II for "PLAYER II"
             lda #$c1           ; $ca58: a9 c1     
-            sta $0345          ; $ca5a: 8d 45 03  
+            sta $0346          ; $ca5a: 8d 45 03
 __ca5d:     rts                ; $ca5d: 60        
 
 ;-------------------------------------------------------------------------------
