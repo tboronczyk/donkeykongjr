@@ -1,5 +1,5 @@
 Donkey Kong Jr (NES)
-Traduko al Esperanto v1.0
+Traduko al Esperanto v1.0 (20/10/2022)
 
 ENKONDUKO
 ---------
@@ -11,7 +11,19 @@ La retpaĝo por la projekto estas
 
 PRISKRIBO DE LUDO
 -----------------
-...
+Renversiĝis la roloj! Savinte sian koramikinon,
+Jumpman/Mario kaptis Donkey Kong kaj malliberigis lin en
+kaĝo. Nun vi helpos la filon de Donkey Kong, DK Jr (la 2a),
+savi sian patron. Saltu de vito al vito kolektante fruktojn
+kaj evitante la mortigajn grimpantajn krokodilojn. Progresu
+tra la pli malfacilaj niveloj, saltante sur moviĝantajn
+plafonojn, kaj evitante birdojn kaj elektrajn fajrerojn.
+Ludu lerte por kapti la ŝlosilon, kiu liberigos Paĉjon!
+
+Sukcese fini nivelon kvar kaj savi Donkey Kong finos etapon.
+Ek al la sekva etapo! Kiam vi progresas, la malamikoj pli
+multnombriĝas kaj moviĝas pli rapide. Konkurenci kun amiko
+por la plej-alta poentaro aŭ la plej-alta etapo!
 
 INFORMOJ PRI ROM
 ----------------
@@ -24,7 +36,7 @@ povas esti pirateco.
 
 HISTORIO
 --------
-v1.0    
+v1.0   20/10/2022
  - Unua eldono
 
 KONTRIBUANTOJ
@@ -32,3 +44,5 @@ KONTRIBUANTOJ
 Timoteo BORONCZYK/bluephoenix
  - Tradukado, programado
 
+Zerbie HYNSON/Terpomo11
+ - Traduka konsultisto
