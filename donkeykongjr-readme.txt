@@ -22,8 +22,8 @@ Ludu lerte por kapti la ŝlosilon, kiu liberigos Paĉjon!
 
 Sukcese fini nivelon kvar kaj savi Donkey Kong finos etapon.
 Ek al la sekva etapo! Kiam vi progresas, la malamikoj pli
-multnombriĝas kaj moviĝas pli rapide. Konkurenci kun amiko
-por la plej-alta poentaro aŭ la plej-alta etapo!
+multnombriĝas kaj moviĝas pli rapide. Konkurencu kun amiko
+por la plej alta poentaro aŭ la plej alta etapo!
 
 INFORMOJ PRI ROM
 ----------------
