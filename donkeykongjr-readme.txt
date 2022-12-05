@@ -1,5 +1,5 @@
 Donkey Kong Jr (NES)
-Traduko al Esperanto v1.0 (20/10/2022)
+Traduko al Esperanto v1.1 (05/12/2022)
 
 ENKONDUKO
 ---------
@@ -38,6 +38,9 @@ HISTORIO
 --------
 v1.0   20/10/2022
  - Unua eldono
+
+v1.1   05/12/2022
+ - korektis krom-arton
 
 KONTRIBUANTOJ
 -------------
